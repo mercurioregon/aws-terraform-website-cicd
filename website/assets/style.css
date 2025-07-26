@@ -1,0 +1,58 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 16px
+}
+
+section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 20px
+}
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-style: bold;
+    text-align: center;
+    font-size: 25px
+}
+/* 
+website-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
+ 
+  .website-counter {
+    background-color: lightgreen;
+    height: 50px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+  } */
+
