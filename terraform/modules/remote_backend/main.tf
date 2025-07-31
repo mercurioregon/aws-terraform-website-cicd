@@ -43,7 +43,7 @@ resource "aws_s3_bucket_policy" "s3_bucket_policy" {
         Action   = "s3:ListBucket",
         Resource = aws_s3_bucket.terraform_state_bucket.arn,
         Principal = {
-          AWS = aws_iam_user.terrafor_user.arn
+          AWS = aws_iam_user.terraform_user.arn
         }
       },
       {
@@ -51,7 +51,7 @@ resource "aws_s3_bucket_policy" "s3_bucket_policy" {
         Action   = ["s3:GetObject", "s3:PutObject"],
         Resource = "${aws_s3_bucket.terraform_state_bucket.arn}/*",
         Principal = {
-          AWS = aws_iam_user.terrafor_user.arn
+          AWS = aws_iam_user.terraform_user.arn
         }
       }
     ]
